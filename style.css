@@ -14,7 +14,6 @@ header {
 }
 
 
-
 .nav{
     list-style: none;
     text-align: center;
@@ -26,6 +25,21 @@ header {
     display: inline-block;
     margin: 0%;
     padding: 20px 20px 20px 20px;
+}
+
+.servicios-link {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    padding: 20px 10px 20px 10px;
+    
+}  
+
+.servicos-link:hover{
+    color:beige;
+    background-color: rgb(60, 60, 60);
+    font-weight: bold;
 }
 
 .equipo-link {
@@ -93,6 +107,39 @@ header {
     border-radius: 10px;
 
 }
+
+/* estilos para la sección 2 (servicios) */
+
+.seccion2{
+    background-color: darkslategrey;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.servicio{
+
+    flex-grow: 1;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    width: 3rem;
+    padding: 2rem 1rem;
+    background: #e2f0ef;
+    border: 3px solid #51aaa3;
+    color: #51aaa3;
+    margin: 6px;
+}
+
+.boton_servicio3 {
+    background-color: none;
+    color:  white;
+    padding: 15px 25px;
+    text-decoration: none;
+    cursor: pointer;
+    border:  darkslategrey;
+  }
+
+   
 
 /* estilos para la sección 3 (noticias) */
 
